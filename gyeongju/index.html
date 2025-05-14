@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>코모도호텔 경주</title>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
+</head>
+<body>
+    <div class="header">
+        <div class="in_header">
+            <div class="header_logo">
+                <a href="#">
+                    <img src="img/logo_2.png" alt="">
+                </a>
+            </div>
+            <ul class="gnb">
+                <li><a href="#">코모도 호텔 소개</a></li>
+                <li><a href="#">객실예약</a></li>
+                <li><a href="#">다이닝</a></li>
+                <li><a href="#">부대시설</a></li>
+                <li><a href="#">스페셜 오퍼</a></li>
+            </ul>
+            <div class="header_ham">
+                <div class="header_menu">
+                    <div class="menu_1"></div>
+                    <div class="menu_2"></div>
+                    <div class="menu_3"></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+<!-- ----------header end------------- -->
+
+<section class="section_1">
+    <div class="section_bg">
+      <div class="sec_1_title">
+        <h2>COMMODORE</h2>
+        <p>A Name of Leadership and Prestige</p>
+      </div>
+  
+      <div class="sec_1_res_wrap">
+        <form class="sec_1_res" action="#" method="get">
+          <div class="date">
+            <div class="check_in">
+              <label for="checkin">Check In</label>
+              <h3 id="checkin">2025.03.25</h3>
+            </div>
+  
+            <div class="date_img">
+              <img src="img/sec_1_icon_1.png" alt="calendar icon">
+              <img src="img/sec_1_icon_2.png" alt="dropdown icon">
+            </div>
+  
+            <div class="check_out">
+              <label for="checkout">Check Out</label>
+              <div class="check_out_text">
+                <h3 id="checkout">2025.03.26</h3>
+              </div>
+              <div class="check_out_icon">
+                <img src="img/sec_1_icon_2.png" alt="dropdown icon">
+              </div>
+            </div>
+          </div>
+  
+          <div class="people">
+            <div class="adult">
+              <label for="adult" class="label-adult">Adult</label>
+              <div class="adult_2">
+                <h3 id="adult">1명</h3>
+                <img src="img/sec_1_icon_2.png" alt="dropdown icon">
+              </div>
+            </div>
+  
+            <div class="children">
+              <label for="children" class="label-children">Children</label>
+              <div class="children_2">
+                <h3 id="children">0명</h3>
+                <img src="img/sec_1_icon_2.png" alt="dropdown icon">
+              </div>
+            </div>
+          </div>
+  
+          <button type="submit" class="reservation">
+            Reservation
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- -----section_1 end------------- -->
+ <section class="section_2">
+  <div class="sec_2_title">
+    <h2>Exclusive Offers</h2>
+    <p>코모도에서 누리는 프리미엄 라이프</p>
+  </div>
+
+  <div class="sec_2_wrapper mySwiper2">
+    <div class="sec_2_container">
+      <div class="sec_2_slide">
+        <div class="sec_2_inner">
+        <a href="#">
+          <img src="img/sec_2_1.png" alt="">
+          <div class="sec_2_text">
+            <h4>잇더베리 PACKAGE</h4>
+            <p>2025. 03. 05 ~ 2025. 05. 31</p>
+          </div>
+        </a>
+        </div>
+      </div>
+      <div class="sec_2_slide">
+        <div class="sec_2_inner">
+        <a href="#">
+          
+          <img src="img/sec_2_2.png" alt="">
+          <div class="sec_2_text">
+            <h4>스프링 블로썸 PACKAGE</h4>
+            <p>2025. 03. 05 ~ 2025. 05. 31</p>
+          </div>
+        </a>
+        </div>
+      </div>
+      <div class="sec_2_slide">
+        <div class="sec_2_inner">
+        <a href="#">
+          <img src="img/sec_2_3.png" alt="">
+          <div class="sec_2_text">
+            <h4>COMO 1979 딸기 PROMOTION</h4>
+            <p>2025. 03. 05 ~ 2025. 06. 30</p>
+          </div>
+        </a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination sec_2_pagination"></div>
+  </div>
+</section>
+
+  
+  
+  
+  
+  <!-- -------section_2 end------------- -->
+
+  <section class="section_3">
+    <div class="sec_3_title">
+      <h2>Rooms & Suites</h2>
+      <p>코모도 호텔 객실 안내</p>
+    </div>
+  
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+  
+        <div class="swiper-slide">
+          <div class="sec_3_slide">
+            <img src="img/3-1.png" alt="온돌">
+            <div class="sec_3_con_text">
+              <h5>온돌</h5>
+              <p>천년 고도의 고풍스러운 멋이 깃든 전통객실입니다.</p>
+              <p>최대 4인 이용가능</p>
+              <div class="sec_3_con_btn">
+                <a href="#">알아보기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="swiper-slide">
+          <div class="sec_3_slide">
+            <img src="img/3-2.png" alt="슈페리어 더블/트윈">
+            <div class="sec_3_con_text">
+              <h5>슈페리어 더블/트윈</h5>
+              <p>아늑하고 편안한 분위기로 최적의 휴식을 경험해 보십시오.</p>
+              <p>싱글배드 1개 / 싱글배드 2개</p>
+              <div class="sec_3_con_btn">
+                <a href="#">알아보기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="swiper-slide">
+          <div class="sec_3_slide">
+            <img src="img/3-3.png" alt="슈페리어 트리플/쿼드">
+            <div class="sec_3_con_text">
+              <h5>슈페리어 트리플/쿼드</h5>
+              <p>3인~4인 투숙에 최적화된 객실로, 비즈니스고객 또는 가족, 친구들과 함께 하기 적절한 공간입니다.</p>
+              <p>싱글배드 3개 / 싱글배드 4개</p>
+              <div class="sec_3_con_btn">
+                <a href="#">알아보기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="swiper-slide">
+          <div class="sec_3_slide">
+            <img src="img/3-4.png" alt="디럭스">
+            <div class="sec_3_con_text">
+              <h5>디럭스</h5>
+              <p>고풍스러운 멋과 세련된 감각이 어우러진 아늑한 공간으로, 품격 있는 휴식을 경험해 보십시오.</p>
+              <p>킹배드 1개 / 킹배드 2개 / 싱글배드 3개</p>
+              <div class="sec_3_con_btn">
+                <a href="#">알아보기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="swiper-slide">
+          <div class="sec_3_slide">
+            <img src="img/3-5.png" alt="스위트">
+            <div class="sec_3_con_text">
+              <h5>스위트</h5>
+              <p>고급스러움과 품격을 느낄 수 있는 객실에서 최고의 서비스를 선사해 드립니다.</p>
+              <p>주니어스위트 / 임페리얼스위트 / 코모도스위트 / 프레시던트 빅 스위트</p>
+              <div class="sec_3_con_btn">
+                <a href="#">알아보기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  
+
+<!-- -------section_3 end------------- -->
+
+
+<section class="section_4">
+  <div class="sec_4_title">
+    <h2>Exclusive Amenities</h2>
+    <p>완벽한 휴식을 위한 세련된 부대시설을 제공합니다.</p>
+  </div>
+
+
+  <div class="sec_4_wrapper mySwiper4">
+    <div class="sec_4_container">
+
+      <div class="sec_4_slide">
+        <a href="#">
+          <div class="sec_4_image_wrap">
+          <img src="img/4-1.png" alt="">
+        </div>
+          <div class="sec_4_text_1">
+            <h5>실내 수영장</h5>
+            <p>아이들을 위한 슬라이드는 물론 선배드,<br>
+              여성 건식 사우나까지 가족을 위한 다양한 시설이 구비된 실내 수영장입니다.
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="sec_4_slide">
+        <a href="#">
+          <div class="sec_4_image_wrap">
+
+          <img src="img/4-2.png" alt="">
+        </div>
+
+          <div class="sec_4_text_2">
+            <h5>레스토랑 & 바</h5>
+            <p>고담, 온새미로, COMO1979, 와인샵<br>
+              미식의 순간을 더욱 특별하게, 네 가지 맛의 경험
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="sec_4_slide">
+        <a href="#">
+          <div class="sec_4_image_wrap">
+
+          <img src="img/4-3.png" alt="">
+        </div>
+
+          <div class="sec_4_text_3">
+            <h5>헬스 & 스파</h5>
+            <p>몸과 마음을 힐링하는 프리미엄 웰니스 공간</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="sec_4_slide">
+        <a href="#">
+          <div class="sec_4_image_wrap">
+
+          <img src="img/4-4.png" alt="">
+        </div>
+
+          <div class="sec_4_text_4">
+            <h5>비즈니스 센터</h5>
+            <p>비즈니즈 업무를 위한 효율적이고 편리한 서비스 제공</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="sec_4_slide">
+        <a href="#">
+          <div class="sec_4_image_wrap">
+
+          <img src="img/4-5.png" alt="">
+        </div>
+
+          <div class="sec_4_text_5">
+            <h5>웨딩</h5>
+            <p>웅장하고 클래식한 볼룸 웨딩 & 사계절이 아름다운 가든 웨딩<br>
+              호텔의 클래식함과 우아함의 품격을 더한 합리적인 프리미엄 웨딩
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="sec_4_slide">
+        <a href="#">
+          <div class="sec_4_image_wrap">
+
+          <img src="img/4-6.png" alt="">
+        </div>
+
+          <div class="sec_4_text_6">
+            <h5>돌잔치 & 가족모임</h5>
+            <p>클래식한 분위기와 어우러지는 부산의 풍경과 함께하는 오륙도홀 돌잔치<br>
+              우리 아기의 처음 맞이하는 생일을 코모도호텔과 함께 보내시길 바랍니다.
+            </p>
+          </div>
+
+        </a>
+      </div>
+      <div class="sec_4_slide swiper-slide empty-slide swiper-slide-duplicate"></div>
+
+    </div>
+
+
+    <div class="swiper-pagination sec_4_pagination"></div>
+  </div>
+</section>
+
+<!-- --------section_4 end------------- -->
+
+<section class="section_5">
+  <div class="sec_5_title">
+    <h2>Dyasty MemverShip</h2>
+    <p>당신만을 위한 프리미엄 멤버십 프로그램</p>
+  </div>
+  <div class="sec_5_container">
+    <div class="sec_5_con_1">
+      <a href="#">
+      <img src="img/5-1.png" alt="">
+      <p>시설 이용특전</p>
+    </a>
+    </div>
+    <div class="sec_5_con_2">
+      <a href="#">
+
+      <img src="img/5-2.png" alt="">
+      <p>객실 이용특전</p>
+    </a>
+
+    </div><div class="sec_5_con_3">
+      <a href="#">
+
+      <img src="img/5-3.png" alt="">
+      <p>식음료 이용특전</p>
+    </a>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer_wrap">
+    <div class="foo_container_1">
+      <img src="img/logo_2.png" alt="">
+      <div class="foo_text">
+        <div class="foo_text_wrap_1">
+          <div class="foo_text_1">
+            <a href="#"><p>호텔소개</p></a>
+            <a href="#"><p>연회&웨딩</p></a>
+          </div>
+          <div class="foo_text_2">
+            <a href="#"><p>예약</p></a>
+            <a href="#"><p>부대시설</p></a>
+          </div>
+        </div>
+        <div class="foo_text_wrap_2">
+          <div class="foo_text_3">
+            <a href="#"><p>숙박</p></a>
+            <a href="#"><p>특별 혜택</p></a>
+          </div>
+          <div class="foo_text_4">
+            <a href="#"><p>레스토랑</p></a>
+            <a href="#"><p>문의하기</p></a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="foo_container_2">
+      <p>COPYRIGHTⓒ 2014. COMMODORE HOTEL BUSAN, ALL RIGHT RESERVED. Designed by FIX<br>
+        TEL : 051-466-9101 FAX : 051-462-9101  48912 / 부산광역시 중구 중구로 151</p>
+    </div>
+  </div>
+  
+</footer>
+
+ 
+
+  
+  <script src="js/gyeongju.js"></script>
+</body>
+</html>
